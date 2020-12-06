@@ -1,0 +1,2226 @@
+# Variants
+[prime.turn-v]
+sampler = 'AΛΔ'
+tag = 'cv01'
+
+[prime.turn-v.variants.straight]
+rank = 1
+description = 'Standard, straight `A`, `Λ`, `Δ`'
+selector.A = "straight"
+selector."grek/Lambda" = "straight"
+selector."grek/Delta" = "straight"
+
+[prime.turn-v.variants.curly]
+rank = 2
+description = 'Slightly curly `A`, `Λ`, `Δ`, like Iosevka 2.x'
+selector.A = "curly"
+selector."grek/Lambda" = "curly"
+selector."grek/Delta" = "curly"
+
+
+
+[prime.capital-b]
+sampler = 'B'
+tag = 'cv02'
+
+[prime.capital-b.variants.standard]
+rank = 1
+description = 'Standard `B`'
+selector.B = 'standard'
+
+[prime.capital-b.variants.more-asymmetric]
+rank = 2
+description = 'More asymmetric `B` to differentiate with `8`'
+selector.B = 'moreAsymmetric'
+
+
+
+[prime.capital-d]
+sampler = 'D'
+tag = 'cv03'
+
+[prime.capital-d.variants.standard]
+rank = 1
+description = 'Standard `D`'
+selector.D = 'standard'
+
+[prime.capital-d.variants.more-rounded]
+rank = 2
+description = 'More rounded `D` to differentiate with `O`'
+selector.D = 'moreRounded'
+
+
+
+[prime.capital-g]
+sampler = 'G'
+tag = 'cv04'
+
+[prime.capital-g.variants.toothed]
+rank = 1
+description = "Toothed G"
+selector.G = "toothed"
+
+[prime.capital-g.variants.toothless-corner]
+rank = 2
+description = "Corner toothless G"
+selector.G = "toothlessCorner"
+
+[prime.capital-g.variants.toothless-rounded]
+rank = 3
+description = "Round toothless G"
+selector.G = "toothlessRounded"
+
+
+
+[prime.capital-i]
+sampler = 'I'
+tag = 'cv05'
+
+[prime.capital-i.variants.serifed]
+rank = 1
+description = "I with standard (long) serifs"
+selector.I = "serifed"
+
+[prime.capital-i.variants.serifless]
+rank = 2
+description = "I without serifs, like a straight bar"
+selector.I = "serifless"
+
+[prime.capital-i.variants.short-serifed]
+rank = 3
+description = "I with short serifs"
+selector.I = "shortSerifed"
+
+
+
+[prime.capital-j]
+sampler = 'J'
+tag = 'cv06'
+
+[prime.capital-j.variants.serifless]
+rank = 1
+description = 'J without top serif'
+selector.J = "serifless"
+
+[prime.capital-j.variants.serifed]
+rank = 2
+description = 'J with top serif at left side'
+selector.J = 'serifed'
+
+[prime.capital-j.variants.serifed-both-sides]
+rank = 3
+description = 'J with symmetric at both sides'
+selector.J = 'serifedBothSides'
+
+[prime.capital-j.variants.serifed-symmetric]
+rank = 4
+description = 'J with symmetric at both sides and is symmetric'
+selector.J = 'serifedSymmetric'
+
+
+
+[prime.capital-k]
+sampler = 'K'
+tag = 'cv07'
+
+[prime.capital-k.variants.straight]
+rank = 1
+description = '`K` with standard shape'
+selector.K = 'straight'
+
+[prime.capital-k.variants.curly]
+rank = 2
+description = 'Slightly curly `K`, like Iosevka 2.x'
+selector.K = 'curly'
+
+
+
+[prime.capital-m]
+sampler = 'M'
+tag = 'cv08'
+
+[prime.capital-m.variants.hanging]
+rank = 1
+description = '`M` with middle being hanging off baseline'
+selector.M = 'hanging'
+
+[prime.capital-m.variants.flat-bottom]
+rank = 2
+description = '`M` with middle aligned to baseline'
+selector.M = 'flatBottom'
+
+
+
+[prime.capital-q]
+sampler = 'Q'
+tag = 'cv09'
+
+[prime.capital-q.variants.taily]
+rank = 1
+description = '`Q` with a curly tail'
+selector.Q = 'taily'
+
+[prime.capital-q.variants.straight]
+rank = 2
+description = '`Q` with a straight tail like in the old versions'
+selector.Q = 'straight'
+
+[prime.capital-q.variants.crossing]
+rank = 3
+description = '`Q` with a tail crossing the ring'
+selector.Q = 'crossing'
+
+
+
+[prime.capital-r]
+sampler = 'R'
+tag = 'cv10'
+
+[prime.capital-r.variants.straight]
+rank = 1
+description = 'Standard, straight-leg `R`'
+selector.R = "straight"
+
+[prime.capital-r.variants.curly]
+rank = 2
+description = ' Slightly curly-legged `R`, like Iosevka 2.x'
+selector.R = "curly"
+
+
+
+[prime.capital-y]
+sampler = 'Y'
+tag = 'cv11'
+
+[prime.capital-y.variants.straight]
+rank = 1
+description = 'Standard, straight `Y`'
+selector.Y = "straight"
+
+[prime.capital-y.variants.curly]
+rank = 2
+description = 'Slightly curly `Y`, like Iosevka 2.x'
+selector.Y = "curly"
+
+
+
+[prime.a]
+sampler = 'a'
+tag = 'cv12'
+
+[prime.a.variants.doublestorey]
+rank = 1
+description = 'Double-storey `a`'
+selector.a = 'doubleStorey'
+
+[prime.a.variants.doublestorey-tailed]
+rank = 2
+description = 'Double-storey `a` with curly tail'
+selector.a = 'doubleStoreyTailed'
+
+[prime.a.variants.doublestorey-toothless-corner]
+rank = 3
+description = 'Toothless (cornered bottom-right) double-storey `a`'
+selector.a = 'doubleStoreyToothlessCorner'
+
+[prime.a.variants.doublestorey-toothless-rounded]
+rank = 4
+description = 'Toothless (rounded bottom-right) double-storey `a`'
+selector.a = 'doubleStoreyToothlessRounded'
+
+[prime.a.variants.singlestorey]
+rank = 5
+description = 'Single-storey `a`'
+selector.a = 'singleStorey'
+
+[prime.a.variants.singlestorey-tailed]
+rank = 6
+description = 'Single-storey `a` with curly tail'
+selector.a = 'singleStoreyTailed'
+
+[prime.a.variants.singlestorey-earless-corner]
+rank = 7
+description = 'Earless (cornered top-right) single-storey `a`'
+selector.a = 'singleStoreyEarlessCorner'
+
+[prime.a.variants.singlestorey-earless-corner-tailed]
+rank = 8
+description = 'Earless (cornered top-right) single-storey `a` with curly tail'
+selector.a = 'singleStoreyEarlessCornerTailed'
+
+[prime.a.variants.singlestorey-earless-rounded]
+rank = 9
+description = 'Earless (rounded top-right) single-storey `a`'
+selector.a = 'singleStoreyEarlessRounded'
+
+[prime.a.variants.singlestorey-earless-rounded-tailed]
+rank = 10
+description = 'Earless (rounded top-right) single-storey `a` with curly tail'
+selector.a = 'singleStoreyEarlessRoundedTailed'
+
+
+
+[prime.b]
+sampler = 'b'
+tag = 'cv13'
+
+[prime.b.variants.toothed]
+rank = 1
+description = '`b` with bottom-left tooth'
+selector.b = "toothed"
+
+[prime.b.variants.toothless-corner]
+rank = 2
+description = '`b` without bottom-left tooth, with a corner transition'
+selector.b = "toothlessCorner"
+
+[prime.b.variants.toothless-rounded]
+rank = 3
+description = '`b` without bottom-left tooth, with a rounded transition'
+selector.b = "toothlessRounded"
+
+
+
+[prime.d]
+sampler = 'd'
+tag = 'cv14'
+
+[prime.d.variants.toothed]
+rank = 1
+description = '`d` with bottom-right tooth'
+selector.d = "toothed"
+
+[prime.d.variants.toothless-corner]
+rank = 2
+description = '`d` without bottom-right tooth, with a corner transition'
+selector.d = "toothlessCorner"
+
+[prime.d.variants.toothless-rounded]
+rank = 3
+description = '`d` without bottom-right tooth, with a rounded transition'
+selector.d = "toothlessRounded"
+
+[prime.d.variants.tailed]
+rank = 4
+description = '`d` with a slightly tail bottom-right tail'
+selector.d = "tailed"
+
+
+
+[prime.f]
+sampler = 'f'
+tag = 'cv15'
+
+[prime.f.variants.serifless]
+rank = 1
+description = '`f` without bottom serif, hook or exension'
+selector.f = "serifless"
+
+[prime.f.variants.serifed]
+rank = 2
+description = '`f` with bottom serif'
+selector.f = "serifed"
+
+[prime.f.variants.tailed]
+rank = 3
+description = '`f` with bottom hook'
+selector.f = "tailed"
+
+[prime.f.variants.extended]
+rank = 4
+description = '`f` with bar extended to descender'
+selector.f = "extended"
+
+[prime.f.variants.serifless-crossbar-at-x-height]
+rank = 5
+description = '`f` without bottom serif, hook or exension; crossbar is placed right at X-height'
+selector.f = "seriflessCrossbarAtXHeight"
+
+[prime.f.variants.serifed-crossbar-at-x-height]
+rank = 6
+description = '`f` with bottom serif; crossbar is placed right at X-height'
+selector.f = "serifedCrossbarAtXHeight"
+
+[prime.f.variants.tailed-crossbar-at-x-height]
+rank = 7
+description = '`f` with bottom hook; crossbar is placed right at X-height'
+selector.f = "tailedCrossbarAtXHeight"
+
+[prime.f.variants.extended-crossbar-at-x-height]
+rank = 8
+description = '`f` with bar extended to descender; crossbar is placed right at X-height'
+selector.f = "extendedCrossbarAtXHeight"
+
+[prime.f.variants.flat-hook]
+rank = 9
+description = '`f` with flat top hook, without bottom serif, hook or exension'
+selector.f = 'flatHook'
+
+[prime.f.variants.flat-hook-serifed]
+rank = 10
+description = '`f` with flat top hook and bottom serif'
+selector.f = 'flatHookSerifed'
+
+[prime.f.variants.flat-hook-tailed]
+rank = 11
+description = '`f` with flat top hook and bottom hook'
+selector.f = 'flatHookTailed'
+
+[prime.f.variants.flat-hook-extended]
+rank = 12
+description = '`f` with flat top hook and bar extended to descender'
+selector.f = 'flatHookExtended'
+
+[prime.f.variants.flat-hook-crossbar-at-x-height]
+rank = 13
+description = '`f` with flat top hook, without bottom serif, hook or exension; crossbar is placed right at X-height'
+selector.f = 'flatHookCrossbarAtXHeight'
+
+[prime.f.variants.flat-hook-serifed-crossbar-at-x-height]
+rank = 14
+description = '`f` with flat top hook, bottom serif; crossbar is placed right at X-height'
+selector.f = 'flatHookSerifedCrossbarAtXHeight'
+
+[prime.f.variants.flat-hook-tailed-crossbar-at-x-height]
+rank = 15
+description = '`f` with flat top hook, bottom hook; crossbar is placed right at X-height'
+selector.f = 'flatHookTailedCrossbarAtXHeight'
+
+[prime.f.variants.flat-hook-extended-crossbar-at-x-height]
+rank = 16
+description = '`f` with flat top hook, bar extended to descender; crossbar is placed right at X-height'
+selector.f = 'flatHookExtendedCrossbarAtXHeight'
+
+
+
+[prime.g]
+sampler = 'g'
+tag = 'cv16'
+
+[prime.g.variants.singlestorey]
+rank = 1
+description = 'Single-storey `g`'
+selector.g = 'singleStorey'
+
+[prime.g.variants.doublestorey]
+rank = 2
+description = 'Double-storey `g`'
+selector.g = 'doubleStorey'
+
+[prime.g.variants.opendoublestorey]
+rank = 3
+description = 'Open Double-storey `g`, like Trebuchet MS or Fira Code'
+selector.g = 'openDoubleStorey'
+
+[prime.g.variants.earless-corner]
+rank = 4
+description = 'Earless (cornered top-right) single-storey `g`'
+selector.g = 'singleStoreyEarlessCorner'
+
+[prime.g.variants.earless-rounded]
+rank = 5
+description = 'Earless (rounded top-right) single-storey `g`'
+selector.g = 'singleStoreyEarlessRounded'
+
+
+
+[prime.h]
+sampler = 'h'
+tag = 'cv17'
+
+[prime.h.variants.straight]
+rank = 1
+description = '`h` with straight ending'
+selector.h = 'straight'
+selector.hhooktop = 'straight'
+
+[prime.h.variants.tailed]
+rank = 2
+description = '`h` with curly tailed ending'
+selector.h = 'tailed'
+selector.hhooktop = 'tailed'
+
+[prime.h.variants.motion-serifed-straight]
+rank = 3
+description = '`h` with straight ending'
+selector.h = 'motionSerifedStraight'
+selector.hhooktop = 'straight'
+
+[prime.h.variants.motion-serifed-tailed]
+rank = 4
+description = '`h` with curly tailed ending'
+selector.h = 'motionSerifedTailed'
+selector.hhooktop = 'tailed'
+
+
+
+[prime.i]
+sampler = 'i'
+tag = 'cv18'
+
+[prime.i.variants.serifed]
+rank = 1
+description = 'Serifed `i`'
+selector.dotlessi = 'serifed'
+
+[prime.i.variants.serifless]
+rank = 2
+description = '`i` like a straight line'
+selector.dotlessi = "serifless"
+
+[prime.i.variants.hooky]
+rank = 3
+description = 'Hooky `i`'
+selector.dotlessi = 'hooky'
+
+[prime.i.variants.zshaped]
+rank = 4
+description = 'Z-shaped `i`'
+selector.dotlessi = 'zshaped'
+
+[prime.i.variants.hooky-bottom]
+rank = 5
+description = "`i` with a straight tail"
+selector.dotlessi = 'hookyBottom'
+
+[prime.i.variants.serifed-asymmetric]
+rank = 6
+description = "`i` with shorter top serif and full bottom serif"
+selector.dotlessi = 'serifedAsymmetric'
+
+[prime.i.variants.tailed]
+rank = 7
+description = "`i` with curly tail"
+selector.dotlessi = 'tailed'
+
+[prime.i.variants.serifed-tailed]
+rank = 8
+description = '`i` with curly tail and top serif'
+selector.dotlessi = 'serifedTailed'
+
+[prime.i.variants.flat-tailed]
+rank = 9
+description = "`i` with top serif and a curly-then-flat tail"
+selector.dotlessi = 'flatTailed'
+
+[prime.i.variants.serifed-flat-tailed]
+rank = 10
+description = "`i` with top serif and a curly-then-flat tail"
+selector.dotlessi = 'serifedFlatTailed'
+
+
+
+[prime.j]
+sampler = 'j'
+tag = 'cv19'
+
+[prime.j.variants.serifed]
+rank = 1
+description = '`j` with top serif'
+selector.dotlessj = "serifed"
+
+[prime.j.variants.serifless]
+rank = 2
+description = '`j` without serif'
+selector.dotlessj = "serifless"
+
+[prime.j.variants.straight-line]
+rank = 3
+description = '`j` like a straight line'
+selector.dotlessj = "straightLine"
+
+[prime.j.variants.flat-hook-serifed]
+rank = 4
+descender = '`j` with flat temrinal hook'
+selector.dotlessj = "flatHookSerifed"
+
+[prime.j.variants.flat-hook-serifless]
+rank = 5
+descender = '`j` with flat temrinal hook and top serif'
+selector.dotlessj = "flatHookSerifless"
+
+
+
+[prime.k]
+sampler = 'k'
+tag = 'cv20'
+
+[prime.k.variants.straight]
+rank = 1
+description = '`k` with standard shape'
+selector.k = 'straight'
+
+[prime.k.variants.curly]
+rank = 2
+description = 'Slightly curly `k`, like Iosevka 2.x'
+selector.k = 'curly'
+
+[prime.k.variants.cursive]
+rank = 3
+description = '`k` with a cursive loop'
+selector.k = 'cursive'
+
+
+
+[prime.l]
+sampler = 'l'
+tag = 'cv21'
+
+[prime.l.variants.serifed]
+rank = 1
+description = 'Serifed `l`'
+selector.l = 'serifed'
+
+[prime.l.variants.serifless]
+rank = 2
+description = '`l` like a straight line'
+selector.l = "serifless"
+
+[prime.l.variants.hooky]
+rank = 3
+description = 'Hooky `l`'
+selector.l = 'hooky'
+
+[prime.l.variants.zshaped]
+rank = 4
+description = 'Z-shaped `l`'
+selector.l = 'zshaped'
+
+[prime.l.variants.hooky-bottom]
+rank = 5
+description = '`l` with a straight tail'
+selector.l = 'hookyBottom'
+
+[prime.l.variants.serifed-asymmetric]
+rank = 6
+description = '`l` with shorter top serif and full bottom serif'
+selector.l = 'serifedAsymmetric'
+
+[prime.l.variants.tailed]
+rank = 7
+description = '`l` with curly tail'
+selector.l = 'tailed'
+
+[prime.l.variants.serifed-tailed]
+rank = 8
+description = '`l` with top serif and curly tail'
+selector.l = 'serifedTailed'
+
+[prime.l.variants.flat-tailed]
+rank = 9
+description = "`l` with top serif and a curly-then-flat tail"
+selector.l = 'flatTailed'
+
+[prime.l.variants.serifed-flat-tailed]
+rank = 10
+description = "`l` with top serif and a curly-then-flat tail"
+selector.l = 'serifedFlatTailed'
+
+
+[prime.m]
+sampler = 'm'
+tag = 'cv22'
+
+[prime.m.variants.normal]
+rank = 1
+description = '`m` with normal middle leg, touching the baseline'
+selector.m = 'normal'
+selector."cyrl/te.italic" = "normal"
+
+[prime.m.variants.shortleg]
+rank = 2
+description = '`m` with shorter middle leg, like Ubuntu Mono'
+selector.m = 'shortleg'
+selector."cyrl/te.italic" = "normal"
+
+[prime.m.variants.tailed]
+rank = 3
+description = '`m` with normal middle leg, touching the baseline, and a curly tail'
+selector.m = 'tailed'
+selector."cyrl/te.italic" = "tailed"
+
+[prime.m.variants.shortleg-tailed]
+rank = 4
+description = '`m` with shorter middle leg, like Ubuntu Mono, and a curly tail'
+selector.m = 'shortlegTailed'
+selector."cyrl/te.italic" = "tailed"
+
+[prime.m.variants.earless-corner-double-arch]
+rank = 5
+description = "Earless (corner top-left) `m` with normal middle leg touching baseline"
+selector.m = 'earlessCornerDoubleArch'
+selector."cyrl/te.italic" = "normal"
+
+[prime.m.variants.earless-corner-double-arch-shortleg]
+rank = 6
+description = "Earless (corner top-left) `m` with a shorter middle leg like Ubuntu Mono"
+selector.m = 'earlessCornerDoubleArchShortleg'
+selector."cyrl/te.italic" = "normal"
+
+[prime.m.variants.earless-corner-double-arch-tailed]
+rank = 7
+description = "Earless (corner top-left) `m` with normal middle leg touching baseline, and a curly tail"
+selector.m = 'earlessCornerDoubleArchTailed'
+selector."cyrl/te.italic" = "tailed"
+
+[prime.m.variants.earless-corner-double-arch-shortleg-tailed]
+rank = 8
+description = "Earless (corner top-left) `m` with a shorter middle leg like Ubuntu Mono, and a curly tail"
+selector.m = 'earlessCornerDoubleArchShortlegTailed'
+selector."cyrl/te.italic" = "tailed"
+
+[prime.m.variants.earless-rounded-double-arch]
+rank = 9
+description = "Earless (rounded top-left) `m` with normal middle leg touching baseline"
+selector.m = 'earlessRoundedDoubleArch'
+selector."cyrl/te.italic" = "normal"
+
+[prime.m.variants.earless-rounded-double-arch-shortleg]
+rank = 10
+description = "Earless (rounded top-left) `m` with a shorter middle leg like Ubuntu Mono"
+selector.m = 'earlessRoundedDoubleArchShortleg'
+selector."cyrl/te.italic" = "normal"
+
+[prime.m.variants.earless-rounded-double-arch-tailed]
+rank = 11
+description = "Earless (rounded top-left) `m` with normal middle leg touching baseline, and a curly tail"
+selector.m = 'earlessRoundedDoubleArchTailed'
+selector."cyrl/te.italic" = "tailed"
+
+[prime.m.variants.earless-rounded-double-arch-shortleg-tailed]
+rank = 12
+description = "Earless (rounded top-left) `m` with a shorter middle leg like Ubuntu Mono, and a curly tail"
+selector.m = 'earlessRoundedDoubleArchShortlegTailed'
+selector."cyrl/te.italic" = "tailed"
+
+[prime.m.variants.earless-single-arch]
+rank = 13
+description = "Earless (single-arch) `m` with normal middle leg touching baseline"
+selector.m = 'earlessSingleArch'
+selector."cyrl/te.italic" = "normal"
+
+[prime.m.variants.earless-single-arch-shortleg]
+rank = 14
+description = "Earless (single-arch) `m` with a shorter middle leg like Ubuntu Mono"
+selector.m = 'earlessSingleArchShortleg'
+selector."cyrl/te.italic" = "normal"
+
+[prime.m.variants.earless-single-arch-tailed]
+rank = 15
+description = "Earless (single-arch) `m` with normal middle leg touching baseline, and a curly tail"
+selector.m = 'earlessSingleArchTailed'
+selector."cyrl/te.italic" = "tailed"
+
+[prime.m.variants.earless-single-arch-shortleg-tailed]
+rank = 16
+description = "Earless (single-arch) `m` with a shorter middle leg like Ubuntu Mono, and a curly tail"
+selector.m = 'earlessSingleArchShortlegTailed'
+selector."cyrl/te.italic" = "tailed"
+
+[prime.m.variants.motion-serifed]
+rank = 17
+description = "`m` with motion serifs, normal middle leg touching baseline"
+selector.m = 'motionSerifed'
+selector."cyrl/te.italic" = "motionSerifed"
+
+[prime.m.variants.motion-serifed-shortleg]
+rank = 18
+description = "`m` with motion serifs, a shorter middle leg like Ubuntu Mono"
+selector.m = 'motionSerifedShortleg'
+selector."cyrl/te.italic" = "motionSerifed"
+
+[prime.m.variants.motion-serifed-tailed]
+rank = 19
+description = "`m` with motion serifs, normal middle leg touching baseline, and a curly tail"
+selector.m = 'motionSerifedTailed'
+selector."cyrl/te.italic" = "motionSerifedTailed"
+
+[prime.m.variants.motion-serifed-shortleg-tailed]
+rank = 20
+description = "`m` with motion serifs, a shorter middle leg like Ubuntu Mono, and a curly tail"
+selector.m = 'motionSerifedShortlegTailed'
+selector."cyrl/te.italic" = "motionSerifedTailed"
+
+
+
+[prime.n]
+sampler = 'n'
+tag = 'cv23'
+
+[prime.n.variants.straight]
+rank = 1
+description = '`n` with straight ending'
+selector.n = 'straight'
+selector.eng = 'straight'
+selector."cyrl/pe.italic" = "straight"
+
+[prime.n.variants.tailed]
+rank = 2
+description = '`n` with a curly tail'
+selector.n = 'tailed'
+selector.eng = 'straight'
+selector."cyrl/pe.italic" = "tailed"
+
+[prime.n.variants.earless-corner-straight]
+rank = 3
+description = 'Earless (corner top-left) `n` with straight ending'
+selector.n = 'earlessCornerStraight'
+selector.eng = 'earlessCornerStraight'
+selector."cyrl/pe.italic" = "straight"
+
+[prime.n.variants.earless-corner-tailed]
+rank = 4
+description = 'Earless (corner top-left) `n` with a curly tail'
+selector.n = 'earlessCornerTailed'
+selector.eng = 'earlessCornerStraight'
+selector."cyrl/pe.italic" = "tailed"
+
+[prime.n.variants.earless-rounded-straight]
+rank = 5
+description = 'Earless (rounded top-left) `n` with straight ending'
+selector.n = 'earlessRoundedStraight'
+selector.eng = 'earlessRoundedStraight'
+selector."cyrl/pe.italic" = "straight"
+
+[prime.n.variants.earless-rounded-tailed]
+rank = 6
+description = 'Earless (rounded top-left) `n` with a curly tail'
+selector.n = 'earlessRoundedTailed'
+selector.eng = 'earlessRoundedStraight'
+selector."cyrl/pe.italic" = "tailed"
+
+[prime.n.variants.motion-serifed-straight]
+rank = 7
+description = '`n` with motion serifs and straight ending'
+selector.n = 'motionSerifedStraight'
+selector.eng = 'motionSerifedStraight'
+selector."cyrl/pe.italic" = "motionSerifedStraight"
+
+[prime.n.variants.motion-serifed-tailed]
+rank = 8
+description = '`n` with motion serifs and a curly tail'
+selector.n = 'motionSerifedTailed'
+selector.eng = 'motionSerifedStraight'
+selector."cyrl/pe.italic" = "motionSerifedTailed"
+
+
+
+[prime.p]
+sampler = 'p'
+tag = 'cv24'
+
+[prime.p.variants.eared]
+rank = 1
+description = '`p` with top-left ear'
+selector.p = 'eared'
+
+[prime.p.variants.earless-corner]
+rank = 2
+description = '`p` without top-left ear (corner)'
+selector.p = 'earlessCorner'
+
+[prime.p.variants.earless-rounded]
+rank = 3
+description = '`p` without top-left ear (rounded)'
+selector.p = 'earlessRounded'
+
+[prime.p.variants.motion-serifed]
+rank = 4
+description = '`p` with motion serifs'
+selector.p = 'motionSerifed'
+
+
+
+[prime.q]
+sampler = 'q'
+tag = 'cv25'
+
+[prime.q.variants.straight]
+rank = 1
+description = '`q` with straight bar'
+selector.q = 'straight'
+
+[prime.q.variants.tailed]
+rank = 2
+description = '`q` with tail'
+selector.q = 'tailed'
+
+[prime.q.variants.earless-corner]
+rank = 3
+description = 'Earless (cornered top-left) single-storey `q`'
+selector.q = 'earlessCorner'
+
+[prime.q.variants.earless-corner-tailed]
+rank = 4
+description = 'Earless (cornered top-left) single-storey `q` with curly tail'
+selector.q = 'earlessCornerTailed'
+
+[prime.q.variants.earless-rounded]
+rank = 5
+description = 'Earless (rounded top-left) single-storey `q`'
+selector.q = 'earlessRounded'
+
+[prime.q.variants.earless-rounded-tailed]
+rank = 6
+description = 'Earless (rounded top-left) single-storey `q` with curly tail'
+selector.q = 'earlessRoundedTailed'
+
+
+
+[prime.r]
+sampler = 'r'
+tag = 'cv26'
+
+[prime.r.variants.serifless]
+rank = 1
+description = 'Straight, serif-less `r`'
+selector.r = "serifless"
+selector.rrtail = "serifless"
+selector."turnrrtail" = "serifless"
+selector."rflap" = "serifless"
+
+[prime.r.variants.serifed]
+rank = 2
+description = '`r` with serif at both top and bottom'
+selector.r = "serifed"
+selector.rrtail = "top-serifed"
+selector."turnrrtail" = "serifed"
+selector."rflap" = "serifed"
+
+[prime.r.variants.top-serifed]
+rank = 3
+description = '`r` with serifs at top-left only'
+selector.r = "top-serifed"
+selector.rrtail = "top-serifed"
+selector."turnrrtail" = "top-serifed"
+selector."rflap" = "serifless"
+
+[prime.r.variants.earless-corner]
+rank = 4
+description = 'Earless (corner top-left), serif-less `r`'
+selector.r = "earlessCorner"
+selector.rrtail = "earlessCorner"
+selector."turnrrtail" = "serifless"
+selector."rflap" = "serifless"
+
+[prime.r.variants.earless-corner-serifed]
+rank = 5
+description = 'Earless (corner top-left), serifed `r`'
+selector.r = "earlessCornerSerifed"
+selector.rrtail = "earlessCorner"
+selector."turnrrtail" = "serifed"
+selector."rflap" = "serifed"
+
+[prime.r.variants.earless-rounded]
+rank = 6
+description = 'Earless (rounded top-left), serif-less `r`'
+selector.r = "earlessRounded"
+selector.rrtail = "earlessRounded"
+selector."turnrrtail" = "serifless"
+selector."rflap" = "serifless"
+
+[prime.r.variants.earless-rounded-serifed]
+rank = 7
+description = 'Earless (rounded top-left), serifed `r`'
+selector.r = "earlessRoundedSerifed"
+selector.rrtail = "earlessRounded"
+selector."turnrrtail" = "serifed"
+selector."rflap" = "serifed"
+
+[prime.r.variants.narrow]
+selector.r = "narrow"
+selector.rrtail = "narrow"
+selector."turnrrtail" = "narrow"
+selector."rflap" = "narrow"
+
+
+
+[prime.t]
+sampler = 't'
+tag = 'cv27'
+
+[prime.t.variants.standard]
+rank = 1
+description = 'Standard `t` shape'
+selector.t = 'standard'
+
+[prime.t.variants.cross]
+rank = 2
+description = 'Futura-like `t` shape'
+selector.t = 'cross'
+
+[prime.t.variants.flat-hook]
+rank = 3
+description = "`t` with flat hook"
+selector.t = 'flatHook'
+
+[prime.t.variants.hookless-asymmetric]
+rank = 4
+description = "`t` without hook and ony half the cross bar"
+selector.t = 'hooklessAsymmetric'
+
+[prime.t.variants.flat-hook-short-neck]
+rank = 5
+description = "`t` with flat hook and a slightly shorter neck"
+selector.t = 'flatHookShortNeck'
+
+[prime.t.variants.flat-hook-short-neck2]
+rank = 6
+description = "`t` with flat hook and a more shorter neck"
+selector.t = 'flatHookShortNeck2'
+
+
+
+[prime.u]
+sampler = 'u'
+tag = 'cv28'
+
+[prime.u.variants.toothed]
+rank = 1
+description = "Normal `u` with bottom-right tooth"
+selector.u = "toothed"
+selector."cyrl/i.italic" = "toothed"
+selector."cyrl/sha.italic" = "toothed"
+selector."cyrl/dzhe.italic" = "toothed"
+selector."cyrl/tse.italic" = "toothed"
+
+[prime.u.variants.toothless-corner]
+rank = 2
+description = 'Toothless (corner bottom-right) `u`'
+selector.u = 'toothlessCorner'
+selector."cyrl/i.italic" = "toothed"
+selector."cyrl/sha.italic" = "toothed"
+selector."cyrl/dzhe.italic" = "toothed"
+selector."cyrl/tse.italic" = "toothed"
+
+[prime.u.variants.toothless-rounded]
+rank = 3
+description = "Toothless (rounded) `u`, like a smaller uppercase `U`"
+selector.u = "toothlessRounded"
+selector."cyrl/i.italic" = "toothed"
+selector."cyrl/sha.italic" = "toothed"
+selector."cyrl/dzhe.italic" = "toothed"
+selector."cyrl/tse.italic" = "toothed"
+
+[prime.u.variants.tailed]
+rank = 4
+description = "`u` with right bar and a slightly curly tail"
+selector.u = "tailed"
+selector."cyrl/i.italic" = "tailed"
+selector."cyrl/sha.italic" = "tailed"
+selector."cyrl/dzhe.italic" = "tailed"
+selector."cyrl/tse.italic" = "toothed"
+
+[prime.u.variants.motion-serifed]
+rank = 5
+description = "Normal `u` with right bar and motion serifs"
+selector.u = "motionSerifed"
+selector."cyrl/i.italic" = "motionSerifed"
+selector."cyrl/sha.italic" = "motionSerifed"
+selector."cyrl/dzhe.italic" = "motionSerifed"
+selector."cyrl/tse.italic" = "motionSerifed"
+
+[prime.u.variants.motion-serifed-tailed]
+rank = 6
+description = "`u` with right bar, motion serifs and a slightly curly tail"
+selector.u = "motionSerifedTailed"
+selector."cyrl/i.italic" = "motionSerifedTailed"
+selector."cyrl/sha.italic" = "motionSerifedTailed"
+selector."cyrl/dzhe.italic" = "motionSerifedTailed"
+selector."cyrl/tse.italic" = "motionSerifed"
+
+[prime.v]
+sampler = 'vV'
+tag = 'cv29'
+
+[prime.v.variants.straight]
+rank = 1
+description = 'Standard, straight `V` and `v`'
+selector.v = "straight"
+selector.V = "straight"
+
+[prime.v.variants.curly]
+rank = 2
+description = ' Slightly curly `V` and `v`, like Iosevka 2.x'
+selector.v = "curly"
+selector.V = "curly"
+
+
+
+[prime.w]
+sampler = 'wW'
+tag = 'cv30'
+
+[prime.w.variants.straight]
+rank = 1
+description = 'Standard, straight `W` and `w`'
+selector.W = "straight"
+selector.w = "straight"
+
+[prime.w.variants.curly]
+rank = 2
+description = 'Slightly curly `W` and `w`, like Iosevka 2.x'
+selector.W = "curly"
+selector.w = "curly"
+
+[prime.w.variants.straight-flat-top]
+rank = 3
+description = 'Standard, straight `W` and `w`, and the middle is forced to be aligned the top'
+selector.W = "straightFlatTop"
+selector.w = "straightFlatTop"
+
+
+
+[prime.x]
+sampler = 'xX'
+tag = 'cv31'
+
+[prime.x.variants.straight]
+rank = 1
+description = 'Standard, straight `X` and `x`'
+selector.X = "straight"
+selector.x = "straight"
+
+[prime.x.variants.curly]
+rank = 2
+description = 'Slightly curly `X` and `x`, like Iosevka 2.x'
+selector.X = "curly"
+selector.x = "curly"
+
+
+
+[prime.y]
+sampler = 'y'
+tag = 'cv32'
+
+[prime.y.variants.straight]
+rank = 1
+description = 'Letter `y` that is fully straight'
+selector.y = "straight"
+selector."cyrl/U" = "straight"
+
+[prime.y.variants.straight-turn]
+rank = 2
+description = 'Letter `y` with straight upper and a tail turns leftward'
+selector.y = "straightTurn"
+selector."cyrl/U" = "straightTurn"
+
+[prime.y.variants.curly]
+rank = 3
+description = 'More curly letter `y`, like Iosevka 2.x'
+selector.y = "curly"
+selector."cyrl/U" = "curly"
+
+[prime.y.variants.cursive]
+rank = 4
+description = 'Cursive-like `y`'
+selector.y = "cursive"
+selector."cyrl/U" = "straight"
+
+
+
+[prime.z]
+sampler = 'zZ'
+tag = 'cv33'
+
+[prime.z.variants.standard]
+rank = 1
+description = 'Standard `Z` and `z`'
+selector.z = 'standard'
+selector.Z = 'standard'
+
+[prime.z.variants.with-crossbar]
+rank = 2
+description = 'Standard `Z` and `z` with a diagonal cross bar for better dsitinction with `2`'
+selector.z = 'withCrossBar'
+selector.Z = 'withCrossBar'
+
+[prime.z.variants.with-horizontal-crossbar]
+rank = 3
+description = 'Standard `Z` and `z` with a horizontal cross bar for better dsitinction with `2`'
+selector.z = 'withHorizontalCrossBar'
+selector.Z = 'withHorizontalCrossBar'
+
+[prime.z.variants.curly]
+rank = 4
+description = 'Curly `Z` and `z`'
+selector.z = 'curly'
+selector.Z = 'curly'
+
+[prime.z.variants.curly-with-crossbar]
+rank = 5
+description = 'Curly `Z` and `z` with a diagonal cross bar for better dsitinction with `2`'
+selector.z = 'curlyWithCrossBar'
+selector.Z = 'curlyWithCrossBar'
+
+[prime.z.variants.curly-with-horizontal-crossbar]
+rank = 6
+description = 'Curly `Z` and `z` with a horizontal cross bar for better dsitinction with `2`'
+selector.z = 'curlyWithHorizontalCrossBar'
+selector.Z = 'curlyWithHorizontalCrossBar'
+
+
+
+[prime.eszet]
+sampler = 'ß'
+tag = 'cv34'
+
+[prime.eszet.variants.traditional]
+rank = 1
+description = 'Traditional, Fraktur-like Eszet'
+selector.eszet = 'traditional'
+
+[prime.eszet.variants.sulzbacher]
+rank = 2
+description = 'A more modern, beta-like Eszet'
+selector.eszet = 'sulzbacher'
+
+[prime.eszet.variants.longs-s-lig]
+rank = 3
+description = 'An Eszet shown as a ligature of long-S (`ſ`) and `s`'
+selector.eszet = 'longsslig'
+
+
+
+[prime.lambda]
+sampler = 'λ'
+tag = 'cv35'
+
+[prime.lambda.variants.straight]
+rank = 1
+description = 'More-straight letter `λ`'
+selector."grek/lambda" = "straight"
+
+[prime.lambda.variants.curly]
+rank = 2
+description = 'More curly letter `λ`, like Iosevka 2.x'
+selector."grek/lambda" = "curly"
+
+
+
+[prime.zero]
+sampler = '0'
+tag = 'cv36'
+
+[prime.zero.variants.slashed]
+rank = 1
+description = 'Slashed Zero `0`'
+selector.zero = 'slashed'
+
+[prime.zero.variants.dotted]
+rank = 2
+description = 'Dotted Zero `0`'
+selector.zero = 'dotted'
+
+[prime.zero.variants.unslashed]
+rank = 3
+description = 'O-like `0`'
+selector.zero = 'unslashed'
+
+[prime.zero.variants.reverse-slashed]
+rank = 4
+description = 'Reverse-slashed `0`'
+selector.zero = 'reverse-slashed'
+
+[prime.zero.variants.long-dotted]
+rank = 5
+description = 'Long-dotted Zero `0` like Hack'
+selector.zero = 'longDotted'
+
+
+
+[prime.one]
+sampler = '1'
+tag = 'cv37'
+
+[prime.one.variants.nobase]
+rank = 1
+description = '`1` without bottom serif'
+selector.one = "nobase"
+
+[prime.one.variants.base]
+rank = 2
+description = '`1` with bottom serif'
+selector.one = "base"
+
+[prime.one.variants.line]
+rank = 3
+description = '`1` drawn just like a straight line'
+selector.one = "line"
+
+
+
+[prime.three]
+sampler = '3'
+tag = 'cv38'
+
+[prime.three.variants.flattop]
+rank = 1
+description = 'Flat top `3` (Like Museo Sans / Montserrat)'
+selector.three = 'flattop'
+
+[prime.three.variants.twoarcs]
+rank = 2
+description = 'Arched top `3`'
+selector.three = 'twoarcs'
+
+
+
+[prime.four]
+sampler = '4'
+tag = 'cv39'
+
+[prime.four.variants.closed]
+rank = 1
+description = '`4` with closed contour'
+selector.four = 'closed'
+
+[prime.four.variants.closed-non-crossing]
+rank = 2
+description = '`4` with closed contour but the horizontal bar does not overflow the vertical bar'
+selector.four = 'closedNonCrossing'
+
+[prime.four.variants.semi-open]
+rank = 3
+description = '`4` with semi-open contour'
+selector.four = 'semiOpen'
+
+[prime.four.variants.semi-open-non-crossing]
+rank = 4
+description = '`4` with semi-open contour but the horizontal bar does not overflow the vertical bar'
+selector.four = 'semiOpenNonCrossing'
+
+[prime.four.variants.open]
+rank = 5
+description = '`4` with open contour'
+selector.four = 'open'
+
+[prime.four.variants.open-non-crossing]
+rank = 6
+description = '`4` with open contour but the horizontal bar does not overflow the vertical bar'
+selector.four = 'openNonCrossing'
+
+
+
+[prime.six]
+sampler = '6'
+tag = 'cv40'
+
+[prime.six.variants.closed-contour]
+rank = 1
+description = '`6` with a more closed contour'
+selector.six = "closedContour"
+
+[prime.six.variants.open-contour]
+rank = 2
+description = '`6` with a more open contour'
+selector.six = "openContour"
+
+[prime.six.variants.straight-bar]
+rank = 3
+description = '`6` with a straight bar'
+selector.six = "straightBar"
+
+
+
+[prime.seven]
+sampler = '7'
+tag = 'cv41'
+
+[prime.seven.variants.noserif]
+rank = 1
+description = '`7` without serif'
+selector.seven = "noserif"
+
+[prime.seven.variants.serifed]
+rank = 2
+description = '`7` with initial serif'
+selector.seven = "serifed"
+
+[prime.seven.variants.crossbar]
+rank = 3
+description = '`7` with crossbar'
+selector.seven = "crossbar"
+
+[prime.seven.variants.crossbar-serifed]
+rank = 4
+description = '`7` with crossbar and initial serif'
+selector.seven = "crossbarSerifed"
+
+
+
+[prime.nine]
+sampler = '9'
+tag = 'cv42'
+
+[prime.nine.variants.closed-contour]
+rank = 1
+description = '`9` with a more closed contour'
+selector.nine = "closedContour"
+
+[prime.nine.variants.open-contour]
+rank = 2
+description = '`9` with a more open contour'
+selector.nine = "openContour"
+
+[prime.nine.variants.straight-bar]
+rank = 3
+description = '`9` with a straight bar'
+selector.nine = "straightBar"
+
+
+
+[prime.tilde]
+sampler = '~'
+tag = 'cv43'
+
+[prime.tilde.variants.high]
+rank = 1
+description = 'Higher tilde `~`'
+selector.asciiTilde = 'high'
+
+[prime.tilde.variants.low]
+rank = 2
+description = 'Lower tilde `~`'
+selector.asciiTilde = 'low'
+
+
+
+[prime.asterisk]
+sampler = '*'
+tag = 'cv44'
+
+[prime.asterisk.variants.high]
+rank = 1
+description = 'Higher five-pointed asterisk `*`'
+selector.asterisk = 'high'
+selector."asterisk/lowered" = 'low'
+
+[prime.asterisk.variants.low]
+rank = 2
+description = 'Lower five-pointed asterisk `*`'
+selector.asterisk = 'low'
+selector."asterisk/lowered" = 'low'
+
+[prime.asterisk.variants.hexhigh]
+rank = 3
+description = 'Higher six-pointed asterisk `*`'
+selector.asterisk = "hexhigh"
+selector."asterisk/lowered" = "hexlow"
+
+[prime.asterisk.variants.hexlow]
+rank = 4
+description = 'Lower six-pointed asterisk `*`'
+selector.asterisk = "hexlow"
+selector."asterisk/lowered" = "hexlow"
+
+[prime.asterisk.variants.flip-penta-high]
+rank = 5
+description = 'Higher five-pointed and turned asterisk `*`'
+selector.asterisk = 'turnPentaHigh'
+selector."asterisk/lowered" = 'turnPentaLow'
+
+[prime.asterisk.variants.flip-penta-low]
+rank = 6
+description = 'Lower five-pointed and turned asterisk `*`'
+selector.asterisk = 'turnPentaLow'
+selector."asterisk/lowered" = 'turnPentaLow'
+
+
+
+[prime.underscore]
+sampler = '_'
+tag = 'cv45'
+
+[prime.underscore.variants.high]
+rank = 1
+description = 'Higher underscore `_`, placed right below baseline'
+selector.underscore = 'high'
+
+[prime.underscore.variants.low]
+rank = 2
+description = 'Lower underscore `_`, placed right above descender line'
+selector.underscore = 'low'
+
+[prime.underscore.variants.above-baseline]
+rank = 3
+description = 'Extra-high `_`, placed right below baseline'
+selector.underscore = 'aboveBaseline'
+
+
+
+[prime.paragraph-sign]
+sampler = '¶'
+tag = 'cv46'
+
+[prime.paragraph-sign.variants.high]
+rank = 1
+description = 'Higher paragraph sign `¶`'
+selector.paragraph = 'high'
+selector.revertParagraph = 'high'
+
+[prime.paragraph-sign.variants.low]
+rank = 2
+description = 'Lower paragraph sign `¶`'
+selector.paragraph = 'low'
+selector.revertParagraph = 'low'
+
+
+
+[prime.caret]
+sampler = '^'
+tag = 'cv47'
+
+[prime.caret.variants.high]
+rank = 1
+description = 'Higher circumflex `^`'
+selector.asciiCaret = 'high'
+
+[prime.caret.variants.low]
+rank = 2
+description = 'Lower circumflex `^`'
+selector.asciiCaret = 'low'
+
+
+
+[prime.paren]
+sampler = '( )'
+tag = 'cv48'
+
+[prime.paren.variants.normal]
+rank = 1
+description = 'Parenthesis with normal contour'
+selector.parenLeft = 'normal'
+selector.parenRight = 'normal'
+
+[prime.paren.variants.large-contour]
+rank = 2
+description = 'Parenthesis with larger contour, like that in Monaco'
+selector.parenLeft = 'largeContour'
+selector.parenRight = 'largeContour'
+
+
+
+[prime.brace]
+sampler = '{ }'
+tag = 'cv49'
+
+[prime.brace.variants.straight]
+rank = 1
+description = 'More straight braces'
+selector.braceLeft = 'straight'
+selector.braceRight = 'straight'
+
+[prime.brace.variants.curly]
+rank = 2
+description = 'More curly braces'
+selector.braceLeft = 'curly'
+selector.braceRight = 'curly'
+
+
+
+[prime.number-sign]
+sampler = '#'
+tag = 'cv50'
+
+[prime.number-sign.variants.upright]
+rank = 1
+description = 'Number sign with vertical bars'
+selector.numberSign = 'upright'
+
+[prime.number-sign.variants.slanted]
+rank = 2
+description = 'Number sign with slanted bars'
+selector.numberSign = 'slanted'
+
+[prime.number-sign.variants.upright-open]
+rank = 3
+description = 'Number sign with vertical bars and open inner'
+selector.numberSign = 'uprightOpen'
+
+[prime.number-sign.variants.slanted-open]
+rank = 4
+description = 'Number sign with slanted bars and open inner'
+selector.numberSign = 'slantedOpen'
+
+
+
+[prime.ampersand]
+sampler = '&'
+tag = 'cv51'
+
+[prime.ampersand.variants.closed]
+rank = 1
+description = 'Ampersand (`&`) with a closed contour'
+selector.ampersand = 'closed'
+
+[prime.ampersand.variants.upper-open]
+rank = 2
+description = 'Ampersand (`&`) with an open contour at upper half'
+selector.ampersand = 'upperOpen'
+
+[prime.ampersand.variants.lower-open]
+rank = 3
+description = 'Ampersand (`&`) with an open contour at lower half'
+selector.ampersand = 'lowerOpen'
+
+[prime.ampersand.variants.et-toothed]
+rank = 4
+description = 'Ampersand (`&`) drawn like a ligature of Ɛ and t with tooth'
+selector.ampersand = 'etToothed'
+
+[prime.ampersand.variants.et-toothless-corner]
+rank = 5
+description = 'Ampersand (`&`) drawn like a ligature of Ɛ and t without tooth (corner)'
+selector.ampersand = 'etToothlessCorner'
+
+[prime.ampersand.variants.et-toothless-rounded]
+rank = 6
+description = 'Ampersand (`&`) drawn like a ligature of Ɛ and t without tooth (rounded)'
+selector.ampersand = 'etToothlessRounded'
+
+[prime.ampersand.variants.flat-top]
+rank = 7
+description = 'Ampersand (`&`) drawn with a flat top'
+selector.ampersand = 'flatTop'
+
+
+
+[prime.at]
+sampler = '@'
+tag = 'cv52'
+
+[prime.at.variants.threefold]
+rank = 1
+description = 'The long, three-fold At symbol (`@`)'
+selector.at = 'threefold'
+
+[prime.at.variants.fourfold]
+rank = 2
+description = 'The traditional, four-fold At symbol (`@`)'
+selector.at = 'fourfold'
+
+[prime.at.variants.short]
+rank = 3
+description = 'The shorter, Fira-like At symbol (`@`)'
+selector.at = 'short'
+
+
+
+[prime.dollar]
+sampler = '$'
+tag = 'cv53'
+
+[prime.dollar.variants.open]
+rank = 1
+description = 'Dollar symbol with open contour'
+selector.dollar = 'open'
+
+[prime.dollar.variants.through]
+rank = 2
+description = 'Dollar symbol with strike-through vertical bar'
+selector.dollar = 'through'
+
+[prime.dollar.variants.opencap]
+rank = 3
+description = 'Dollar symbol with open contour, not exceeding baseline and ascender'
+selector.dollar = "opencap"
+
+[prime.dollar.variants.throughcap]
+rank = 4
+description = 'Dollar symbol with strike-through vertical bar, not exceeding baseline and ascender'
+selector.dollar = "throughcap"
+
+
+
+[prime.percent]
+sampler = '%'
+tag = 'cv54'
+
+[prime.percent.variants.dots]
+rank = 1
+description = 'Percent `%`, Per-mille `‰` and basis point `‱` using rectangular dots'
+selector.percent = "dots"
+
+[prime.percent.variants.rings]
+rank = 2
+description = 'Percent `%` with rings and broken bar; Per-mille `‰` and basis point `‱` with rings'
+selector.percent = "rings"
+
+[prime.percent.variants.rings-connected]
+rank = 3
+description = 'Percent `%`, Per-mille `‰` and basis point `‱` using rings and continuous bar'
+selector.percent = "ringsConnected"
+
+
+
+[prime.bar]
+sampler = '|'
+tag = 'cv55'
+slopeDependent = true
+
+[prime.bar.variants.natural-slope]
+rank = 1
+description = 'Bar punctuations (`|`) has a natural slope under italics and oblique'
+selector."bar.italic" = "naturalSlope"
+
+[prime.bar.variants.force-upright]
+rank = 2
+description = 'Bar punctuations (`|`) is forced upright under italics and oblique'
+selector."bar.italic" = "forceUpright"
+
+
+
+[prime.lig-ltgteq]
+sampler = '<= >='
+tag = 'cv56'
+
+[prime.lig-ltgteq.variants.flat]
+rank = 1
+description = 'The lower bar of `<=` and `>=` ligation is flat'
+selector."eq.at-lteq.lig2" = "flat"
+selector."eq.at-gteq.lig2" = "flat"
+
+[prime.lig-ltgteq.variants.slanted]
+rank = 2
+description = 'The lower bar of `<=` and `>=` ligation is slanted'
+selector."eq.at-lteq.lig2" = "slanted"
+selector."eq.at-gteq.lig2" = "slanted"
+
+
+
+[prime.ascii-single-quote]
+sampler = "'"
+tag = 'cv57'
+
+[prime.ascii-single-quote.variants.straight]
+rank = 1
+description = "Show ASCII quote (`'`) as short vertical straight bar."
+selector.asciiSingleQuote = 'straight'
+
+[prime.ascii-single-quote.variants.raised-comma]
+rank = 2
+description = "Show ASCII quote (`'`) as raised comma."
+selector.asciiSingleQuote = 'raisedComma'
+
+
+
+[prime.ascii-grave]
+sampler = '`'
+tag = 'cv58'
+
+[prime.ascii-grave.variants.straight]
+rank = 1
+description = "Show ASCII grave (`` ` ``) as short diagonal straight bar."
+selector.asciiGrave = 'straight'
+
+[prime.ascii-grave.variants.raised-inverse-comma]
+rank = 2
+description = "Show ASCII grave (`` ` ``) as raised comma."
+selector.asciiGrave = 'raisedInverseComma'
+
+########## "Untagged" variants, used for Aile, etc.
+
+[prime.f.variants.narrow]
+selector.f = 'narrow'
+
+[prime.t.variants.narrow]
+selector.t = 'narrow'
+
+[prime.j.variants.narrow]
+selector.dotlessj = "narrow"
+
+[prime.j.variants.narrow-serifed]
+selector.dotlessj = "narrowSerifed"
+
+# This is a special variant selector that controls digit form
+[prime.digit-form.variants.lining]
+selector.__defaultDigitForm = "lining"
+
+[prime.digit-form.variants.old-style]
+selector.__defaultDigitForm = "oldStyle"
+
+###################################################################################################
+
+[default.design]
+# Capitals
+capital-b = 'standard'
+capital-d = 'standard'
+capital-g = 'toothed'
+capital-i = 'serifed'
+capital-j = 'serifed'
+capital-k = 'straight'
+capital-m = 'hanging'
+capital-q = 'taily'
+capital-r = 'straight'
+capital-y = 'straight'
+# Lowers
+b = 'toothed'
+g = 'singlestorey'
+p = 'eared'
+q = 'straight'
+r = 'serifless'
+t = 'standard'
+v = 'straight'
+w = 'straight'
+x = 'straight'
+z = 'standard'
+# Non-latin
+turn-v = 'straight'
+eszet = 'sulzbacher'
+lambda = 'straight'
+# Digits
+zero = 'slashed'
+one = 'nobase'
+three = 'twoarcs'
+four = 'closed'
+six = 'straight-bar'
+seven = 'noserif'
+nine = 'straight-bar'
+# Symbols
+tilde = 'low'
+asterisk = 'high'
+paragraph-sign = 'high'
+caret = 'high'
+underscore = 'high'
+at = 'threefold'
+paren = 'normal'
+brace = 'curly'
+dollar = 'through'
+number-sign = 'upright'
+percent = 'rings'
+lig-ltgteq = 'flat'
+ampersand = 'closed'
+bar = 'natural-slope'
+ascii-single-quote = 'straight'
+ascii-grave = 'straight'
+# m, n, h has tailed variant, but not very ideal
+# Do not make them default
+h = 'straight'
+m = 'normal'
+n = 'straight'
+# Digit form
+digit-form = 'lining'
+
+[default.upright-oblique]
+a = 'doublestorey'
+d = 'toothed'
+f = 'serifless'
+i = 'serifed'
+j = 'serifed'
+k = 'straight'
+l = 'serifed'
+u = 'toothed'
+y = 'straight'
+
+[default.italic]
+a = 'singlestorey-tailed'
+d = 'tailed'
+f = 'flat-hook-tailed'
+i = 'serifed-tailed'
+j = 'serifed'
+k = 'cursive'
+l = 'serifed-tailed'
+u = 'tailed'
+y = 'cursive'
+
+###################################################################################################
+
+[composite.slab.design]
+one = 'base'
+seven = 'serifed'
+
+[composite.slab.upright-oblique]
+f = 'serifed'
+r = 'serifed'
+y = 'straight-turn'
+
+[composite.slab.italic]
+f = 'flat-hook-tailed'
+r = 'top-serifed'
+y = 'cursive'
+
+
+
+[composite.ss01]
+tag = 'ss01'
+description = "Andale Mono Style"
+
+[composite.ss01.design]
+i = 'hooky'
+a = 'doublestorey'
+g = 'doublestorey'
+k = 'straight'
+l = 'zshaped'
+y = 'straight-turn'
+at = 'fourfold'
+zero = 'dotted'
+brace = 'straight'
+underscore = 'low'
+number-sign = 'slanted'
+asterisk = 'hexhigh'
+one = 'base'
+six = 'open-contour'
+nine = 'open-contour'
+percent = "rings-connected"
+
+
+
+[composite.ss02]
+tag = 'ss02'
+description = "Anonymous Pro Style"
+
+[composite.ss02.design]
+capital-g = "toothless-rounded"
+capital-j = "serifless"
+a = "doublestorey"
+d = "toothed"
+i = "serifed"
+k = "straight"
+l = "serifed"
+y = "straight-turn"
+eszet = "longs-s-lig"
+one = "base"
+six = "closed-contour"
+nine = "closed-contour"
+asterisk = "hexlow"
+percent = "rings-connected"
+
+
+
+[composite.ss03]
+tag = 'ss03'
+description = 'Consolas Style'
+
+[composite.ss03.design]
+at = 'fourfold'
+underscore = 'low'
+brace = 'straight'
+number-sign = 'slanted'
+asterisk = 'hexhigh'
+one = 'base'
+six = 'open-contour'
+nine = 'open-contour'
+percent = "rings-connected"
+
+[composite.ss03.upright-oblique]
+g = 'doublestorey'
+y = 'straight-turn'
+
+[composite.ss03.italic]
+g = 'singlestorey'
+y = 'cursive'
+
+
+
+[composite.ss04]
+tag = 'ss04'
+description = 'Menlo Style'
+
+[composite.ss04.design]
+at = 'threefold'
+a = 'doublestorey'
+underscore = 'low'
+i = 'serifed'
+k = 'straight'
+l = 'serifed-flat-tailed'
+y = 'straight-turn'
+brace = 'straight'
+number-sign = 'slanted'
+asterisk = 'hexlow'
+one = 'base'
+ampersand = 'upper-open'
+six = 'closed-contour'
+nine = 'closed-contour'
+percent = "rings-connected"
+
+
+
+[composite.ss05]
+tag = 'ss05'
+description = 'Fira Mono Style'
+
+[composite.ss05.design]
+capital-g = "toothless-corner"
+a = "doublestorey-tailed"
+g = "opendoublestorey"
+i = "serifed"
+l = "serifed-tailed"
+r = "serifed"
+y = "straight-turn"
+one = "base"
+six = "closed-contour"
+nine = "open-contour"
+asterisk = "hexlow"
+underscore = "low"
+brace = "straight"
+number-sign = "slanted"
+ampersand = "et-toothless-corner"
+at = "short"
+percent = "rings-connected"
+lig-ltgteq = "slanted"
+
+
+
+[composite.ss06]
+tag = 'ss06'
+description = 'Liberation Mono Style'
+
+[composite.ss06.design]
+at = 'fourfold'
+a = 'doublestorey'
+i = 'serifed'
+k = 'straight'
+l = 'serifed'
+y = 'straight-turn'
+brace = 'straight'
+zero = 'dotted'
+number-sign = 'slanted'
+one = 'base'
+six = 'closed-contour'
+nine = 'closed-contour'
+percent = "rings-connected"
+
+
+
+[composite.ss07]
+tag = 'ss07'
+description = 'Monaco Style'
+
+[composite.ss07.design]
+at = 'fourfold'
+a = 'singlestorey'
+i = 'zshaped'
+k = 'straight'
+l = 'zshaped'
+y = 'straight-turn'
+brace = 'straight'
+number-sign = 'slanted'
+asterisk = 'hexhigh'
+one = 'base'
+paren = 'large-contour'
+six = 'closed-contour'
+nine = 'closed-contour'
+percent = "rings-connected"
+
+
+
+[composite.ss08]
+tag = 'ss08'
+description = 'Pragmata Pro Style'
+
+[composite.ss08.design]
+at = 'threefold'
+a = 'doublestorey'
+l = 'serifed'
+i = 'serifed'
+asterisk = 'low'
+zero = 'dotted'
+brace = 'straight'
+dollar = 'open'
+underscore = 'low'
+number-sign = 'slanted'
+percent = 'dots'
+v = 'curly'
+turn-v = 'curly'
+w = 'curly'
+x = 'curly'
+capital-y = 'curly'
+capital-r = 'curly'
+capital-k = 'curly'
+k = 'curly'
+y = 'curly'
+lambda = 'curly'
+ampersand = 'upper-open'
+six = 'closed-contour'
+nine = 'closed-contour'
+
+[composite.ss08.upright-oblique]
+g = 'doublestorey'
+
+[composite.ss08.italic]
+g = 'singlestorey'
+
+
+
+[composite.ss09]
+tag = 'ss09'
+description = 'Source Code Pro Style'
+
+[composite.ss09.design]
+capital-g = "toothless-corner"
+k = "straight"
+l = "serifed-tailed"
+y = "straight-turn"
+zero = "dotted"
+one = "base"
+six = "closed-contour"
+nine = "closed-contour"
+asterisk = "low"
+underscore = "low"
+brace = "straight"
+dollar = "open"
+bar = "force-upright"
+
+[composite.ss09.upright-oblique]
+a = "doublestorey"
+d = "toothed"
+g = 'doublestorey'
+i = 'hooky'
+
+[composite.ss09.italic]
+a = "singlestorey"
+d = "toothed"
+g = "singlestorey"
+i = "serifed-tailed"
+
+
+
+[composite.ss10]
+tag = 'ss10'
+description = 'Envy Code R Style'
+
+[composite.ss10.design]
+at = 'threefold'
+a = 'doublestorey'
+underscore = 'low'
+i = 'hooky'
+k = 'straight'
+l = 'hooky'
+y = 'cursive'
+asterisk = 'low'
+one = 'base'
+nine = 'straight-bar'
+six = 'straight-bar'
+percent = "rings-connected"
+
+
+
+[composite.ss11]
+tag = 'ss11'
+description = 'X Window Style'
+
+[composite.ss11.design]
+zero = 'unslashed'
+tilde = 'high'
+brace = 'straight'
+dollar = 'through'
+three = 'flattop'
+at = 'threefold'
+one = 'base'
+six = 'closed-contour'
+nine = 'closed-contour'
+
+
+
+[composite.ss12]
+tag = 'ss12'
+description = 'Ubuntu Mono Style'
+
+[composite.ss12.design]
+capital-g = "toothless-corner"
+a = "doublestorey-toothless-corner"
+b = "toothless-corner"
+g = "earless-corner"
+i = "serifed-tailed"
+k = "straight"
+l = "serifed-tailed"
+m = "shortleg"
+n = "earless-corner-straight"
+p = "earless-corner"
+q = "earless-corner"
+r = "earless-corner"
+y = "straight-turn"
+eszet = "longs-s-lig"
+zero = "dotted"
+one = "base"
+six = "open-contour"
+nine = "open-contour"
+underscore = "low"
+brace = "straight"
+number-sign = "slanted"
+dollar = "open"
+percent = "rings-connected"
+
+[composite.ss12.upright-oblique]
+d = "toothless-corner"
+u = "toothless-corner"
+
+[composite.ss12.italic]
+d = "tailed"
+u = "tailed"
+
+
+
+[composite.ss13]
+tag = 'ss13'
+description = 'Lucida Style'
+
+[composite.ss13.design]
+i = 'hooky'
+k = 'straight'
+l = 'hooky'
+y = 'straight-turn'
+zero = 'dotted'
+underscore = 'low'
+caret = 'low'
+number-sign = 'slanted'
+one = 'base'
+six = 'closed-contour'
+nine = 'closed-contour'
+percent = "rings-connected"
+
+
+
+[composite.ss14]
+tag = 'ss14'
+description = 'JetBrains Mono Style'
+
+[composite.ss14.design]
+capital-q = "straight"
+capital-g = "toothless-rounded"
+f = "flat-hook-crossbar-at-x-height"
+i = "serifed"
+l = "serifed-flat-tailed"
+u = "toothless-rounded"
+zero = "dotted"
+one = "base"
+three = "flattop"
+four = "semi-open"
+asterisk = "low"
+tilde = "low"
+lig-ltgteq = "slanted"
+percent = "rings-connected"
+ampersand = "upper-open"
+brace = "straight"
+number-sign = "slanted"
+
+[composite.ss14.italic]
+f = "flat-hook-tailed-crossbar-at-x-height"
+
+
+
+[composite.ss20]
+tag = 'ss20'
+description = 'Curly Style'
+
+[composite.ss20.design]
+v = 'curly'
+turn-v = 'curly'
+w = 'curly'
+x = 'curly'
+z = 'curly'
+capital-y = 'curly'
+capital-r = 'curly'
+capital-k = 'curly'
+lambda = 'curly'
+six = 'open-contour'
+nine = 'open-contour'
+
+[composite.ss20.upright-oblique]
+k = 'curly'
+y = 'curly'
+
+[composite.ss20.italic]
+k = 'cursive'
+y = 'cursive'
