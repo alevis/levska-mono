@@ -29,6 +29,7 @@ node_modules
 .vscode
 
 # Special
+*.tar
 *.ttf
 *.7z
 test/
@@ -49,8 +50,8 @@ font-src/otl/**/*.js
 font-src/glyphs/**/*.js
 
 package-lock.json
-private.toml
-private-build-plans.toml
+# private.toml
+# private-build-plans.toml
 private.mk
 params/private-parameters.toml
 
