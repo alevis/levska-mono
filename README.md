@@ -1,5 +1,5 @@
-# Levska-Mono
-**Levska-Mono** is an *open-source*, *monospace* font based on **Iosevka**
+# Veska-Mono
+**Veska-Mono** is an *open-source*, *monospace* font based on **Iosevka**
 see `/dist` folder
 
 ## Customized Build
